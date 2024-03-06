@@ -12,7 +12,7 @@ def descobre_numero(numero_recebido):
 
     # A função retorna uma string com o 'numero_aleatorio'
     # A conversão do número para string é feita pela função str()
-    return "O número que você adivinhou foi: " + str(numero_aleatorio)
+    return "O número que você adivinhou foi: " + str(numero_recebido)
 
 # Início da execução do programa
 def main():
