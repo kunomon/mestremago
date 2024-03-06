@@ -12,6 +12,6 @@ jobs:
     - name: Set up Python 3.4
       uses: actions/setup-python@v2
       with:
-        python-version: 3.4.10
+        python-version: '3.*'
     - name: Run tests
       run: python -m unittest discover -s .
