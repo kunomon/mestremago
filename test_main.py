@@ -7,7 +7,7 @@ class TesteDescobreNumero(unittest.TestCase):
             resultado = descobre_numero(5)
             self.assertTrue(resultado.startswith("O número que você adivinhou foi: "))
             numero = int(resultado.split(": ")[1])
-            self.assertTrue(descobre_numero == numero, "O programa não adivinhou meu número")
+            self.assertTrue(numero == 5, "O programa não adivinhou meu número")
 
 if __name__ == '__main__':
     unittest.main()
