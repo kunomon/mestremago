@@ -9,6 +9,7 @@ class TesteDescobreNumero(unittest.TestCase):
             resultado = descobre_numero(numero_aleatorio)
             self.assertTrue(resultado.startswith("O número que você adivinhou foi: "))
             numero = int(resultado.split(": ")[1])
+
             self.assertTrue(numero_aleatorio == numero, "O programa não adivinhou meu número")
 
 if __name__ == '__main__':
